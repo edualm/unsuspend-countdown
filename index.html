@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Countdown</title>
+    </head>
+	<link rel="stylesheet" href="style.css">
+	<body>
+        <h1>⏱️</h1>
+        <div id="timer"></div>
+	</body>
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            
+            countdown();
 
+            setInterval(countdown, 1000);
+        };
+    </script>
+</html>
